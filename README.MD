@@ -1,0 +1,5 @@
+# Install
+
+```sh
+makepkg -sfi
+```
