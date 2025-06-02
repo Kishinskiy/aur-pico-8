@@ -14,10 +14,10 @@ provides=('pico8')
 
 source=("${pkgname}.desktop"
         "${pkgname}.xml")
-source_i686=("file://${pkgname}_${pkgver}_i386.zip")
-source_x86_64=("file://${pkgname}_${pkgver}_amd64.zip")
-source_armv7h=("file://${pkgname}_${pkgver}_raspi.zip")
-source_aarch64=("file://${pkgname}_${pkgver}_raspi.zip")
+source_i686=("https://www.lexaloffle.com/dl/7tiann/pico-8_${pkgver}_i386.zip")
+source_x86_64=("https://www.lexaloffle.com/dl/7tiann/pico-8_${pkgver}_amd64.zip")
+source_armv7h=("https://www.lexaloffle.com/dl/7tiann/pico-8_${pkgver}_raspi.zip")
+source_aarch64=("https://www.lexaloffle.com/dl/7tiann/pico-8_${pkgver}_raspi.zip")
 
 sha256sums=('272f33c38a74456a4d2597a6b1d0c6ee9695d0e47f31ce08018c24a78e62759e'
             '2776340602e7ad29898500c4b2162bb5dd7746b933fb443b551e25a751e375e7')
